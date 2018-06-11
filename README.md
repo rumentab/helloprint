@@ -6,10 +6,10 @@
 3. Virtualization enabled in BIOS (if needed)
 
 ## Get the project files
-### Pull the project from [github](https://github.com/rumentab)
+### Pull the project from [github](https://github.com/rumentab/helloprint.git)
 Go to an empty folder and type:
 ````
-C:\Users\User\Documents\Projects> git clone https://github.com/rumentab Helloprint_Project
+C:\Users\User\Documents\Projects> git clone https://github.com/rumentab/helloprint.git Helloprint_Project
 ````
     
 ## Configure
