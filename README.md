@@ -44,6 +44,18 @@ to
 ]
 
 ````
+
+Open the SQL file sources/consumer/sql/install_db.sql
+
+and place the email addrss of the user you want to be created at line 3:
+from
+````MySQL
+SET @email = 'xxxx@xxxx.xx';
+````
+to
+````MySQL
+SET @email = 'user.email@example.com';
+````
 ### Starting project for the first time
 
 Open a terminal window and go into the projects v1 folder
@@ -89,6 +101,15 @@ Consider you've placed the 192.168.1.123 IP address in the Vagrantfile, then eve
 Open a browser window and type the webserver URL. You should be redirected to the login page. 
 
 That's all. Enjoy!
+
+### Enter in container
+Use the following commands
+````
+C:\Users\User\Documents\Projects\Helloprint_Project\v1> vagrant ssh
+vagrant@virtualbox# sudo docker container list
+vagrant@virtualbox# sudo docker -it <name of the container>
+root@A1B2C3G4#
+````
 
 
 ## Stop the project

@@ -1,6 +1,6 @@
 USE `helloprint`;
 
-SET @email = 'rumen.tabakov@gmail.com';
+SET @email = 'xxxxxx@xxx.xx';
 
 CREATE TABLE IF NOT EXISTS `users` (
   id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
