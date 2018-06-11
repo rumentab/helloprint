@@ -1,0 +1,21 @@
+version: '3'
+services:
+  # we named our first service 'web'
+  producer:
+    # pass a hostname to the container (optinal)
+    hostname: helloprint-producer
+
+    # build a custom image
+    build: .
+
+    # a name for easier reference
+    image: helloprint-producer-app
+
+    # map host port 8080 to container port 80
+    ports:
+        - 4100:80
+
+    # volumes are like shared folders
+    # container will see your local code changes
+    volumes:
+      - .:/var/www/html

@@ -1,0 +1,14 @@
+{
+    "name": "helloprint/consumer",
+    "description": "HelloPrint Consumer environment",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rumen Tabakov",
+            "email": "rumen.tabakov@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "~6.0"
+    }
+}

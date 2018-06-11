@@ -1,0 +1,16 @@
+{
+    "name": "helloprint/webserver",
+    "description": "HelloPrint Webserver environment",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rumen Tabakov",
+            "email": "rumen.tabakov@gmail.com"
+        }
+    ],
+    "require": {
+        "components/jquery": "3.3.1",
+        "twitter/bootstrap": "v4.1.1",
+        "components/font-awesome": "4.7.0"
+    }
+}

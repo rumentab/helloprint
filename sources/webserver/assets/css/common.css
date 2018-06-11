@@ -1,0 +1,5 @@
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.alert {width: 500px !important; left: 50%; margin-left:-250px;}

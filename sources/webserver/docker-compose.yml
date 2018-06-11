@@ -1,0 +1,21 @@
+version: '3'
+services:
+  # we named our first service 'web'
+  webserver:
+    # pass a hostname to the container (optinal)
+    hostname: helloprint-webserver
+
+    # build a custom image
+    build: .
+
+    # a name for easier reference
+    image: helloprint-webserver-app
+
+    # map host port 8080 to container port 80
+    ports:
+        - 4000:80
+
+    # volumes are like shared folders
+    # container will see your local code changes
+    volumes:
+      - .:/var/www/html

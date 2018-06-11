@@ -1,0 +1,15 @@
+.DS_Store
+
+webserver/vendor/
+producer/vendor/
+consumer/vendor/
+
+.idea/*
+
+v1/.vagrant/*
+v1/*.log
+v1/Vagrantfile
+
+sources/consumer/config.php
+sources/producer/config.php
+sources/webserver/config.json
