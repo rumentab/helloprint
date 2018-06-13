@@ -1,5 +1,5 @@
 {
-  "producer":"ip.of.producer:4000",      // see v1/Vagrantfile
+  "producer":"ip.of.producer:4100",
   "protocol":"http",
   "authToken":"-KvD_S4h2qn7YZ*#NUhUT4B@"
 }

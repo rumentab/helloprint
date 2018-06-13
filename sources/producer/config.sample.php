@@ -10,6 +10,6 @@ $config = [
         'consumer'  => '=kbF%m?CH4ZUR$nPzZPJpC8u'
     ],
     'address' => [
-        'consumer'  => "ip.of.consumer:4000",      // see v1/Vagrantfile
+        'consumer'  => "ip.of.consumer:4200",      // see v1/Vagrantfile
     ]
 ];
