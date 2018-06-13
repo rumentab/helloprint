@@ -5,5 +5,5 @@ WORKDIR /var/www/html
 
 RUN apt-get update
 RUN apt-get upgrade -y
-RUN docker-php-ext-install pdo pdo_mysql mysqli
+RUN docker-php-ext-install mysqli
 RUN a2enmod rewrite

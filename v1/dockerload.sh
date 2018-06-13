@@ -15,6 +15,6 @@ docker-compose up -d
 echo ">>>>>> Building consumer container"
 
 cd /vagrant/consumer/
-docker-compose up -d
+docker-compose up -d --build
 
 echo ">>> Containers installed!"

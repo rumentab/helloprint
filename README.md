@@ -47,7 +47,8 @@ to
 
 Open the SQL file sources/consumer/sql/install_db.sql
 
-and place the email addrss of the user you want to be created at line 3:
+and place the email addrss of the user you want to be created at line 23:
+
 from
 ````MySQL
 SET @email = 'xxxx@xxxx.xx';
@@ -107,7 +108,7 @@ Use the following commands
 ````
 C:\Users\User\Documents\Projects\Helloprint_Project\v1> vagrant ssh
 vagrant@virtualbox# sudo docker container list
-vagrant@virtualbox# sudo docker -it <name of the container>
+vagrant@virtualbox# sudo docker exec -it <name of the container> bash
 root@A1B2C3G4#
 ````
 
